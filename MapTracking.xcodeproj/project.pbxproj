@@ -14,6 +14,7 @@
 		7B07B0862997914F003AD41C /* MapTracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B0842997914F003AD41C /* MapTracking.xcdatamodeld */; };
 		7B07B08829979150003AD41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B07B08729979150003AD41C /* Assets.xcassets */; };
 		7B07B08B29979150003AD41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B07B08929979150003AD41C /* LaunchScreen.storyboard */; };
+		7BF7EEFD2997BA510045CC00 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF7EEFC2997BA510045CC00 /* Annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7B07B08729979150003AD41C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B07B08A29979150003AD41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B07B08C29979150003AD41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF7EEFC2997BA510045CC00 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7B07B07B2997914F003AD41C /* AppDelegate.swift */,
 				7B07B07D2997914F003AD41C /* SceneDelegate.swift */,
 				7B07B07F2997914F003AD41C /* ViewController.swift */,
+				7BF7EEFC2997BA510045CC00 /* Annotation.swift */,
 				7B07B0812997914F003AD41C /* Main.storyboard */,
 				7B07B08729979150003AD41C /* Assets.xcassets */,
 				7B07B08929979150003AD41C /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B07B0802997914F003AD41C /* ViewController.swift in Sources */,
+				7BF7EEFD2997BA510045CC00 /* Annotation.swift in Sources */,
 				7B07B0862997914F003AD41C /* MapTracking.xcdatamodeld in Sources */,
 				7B07B07C2997914F003AD41C /* AppDelegate.swift in Sources */,
 				7B07B07E2997914F003AD41C /* SceneDelegate.swift in Sources */,
