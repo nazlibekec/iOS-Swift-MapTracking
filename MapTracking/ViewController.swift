@@ -7,13 +7,11 @@
 
 import UIKit
 import MapKit
-import CoreLocation
 
-class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class ViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
     
-    var locationManager = CLLocationManager()
     var timer = Timer()
     var index = 0
     
@@ -45,15 +43,10 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         super.viewDidLoad()
         
         mapView.delegate = self
-        locationManager.delegate = self
-        
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.startUpdatingLocation()
         
         timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(updateMap), userInfo: nil, repeats: true)
       
-       createMap()
+        createMap()
     }
 
     @objc func updateMap(){
@@ -74,7 +67,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     func stringFromCoordinate(coordinate: CLLocationCoordinate2D) -> String {
         return "\(coordinate.latitude), \(coordinate.longitude)"
     }
-
     
     @objc func createMap(){
         let span = MKCoordinateSpan(latitudeDelta: 0.04, longitudeDelta: 0.04)
