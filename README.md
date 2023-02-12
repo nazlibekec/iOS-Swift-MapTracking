@@ -6,5 +6,4 @@ iOS-Swift-MapTracking
 --> Annotation
 --> OOP
 
-![MapTrackingGIF](https://user-images.githubusercontent.com/82319635/218335374-53f6c27e-140e-4386-8353-bc97aa90a25f.gif)
-
+![MapTrackingGIF](https://user-images.githubusercontent.com/82319635/218335674-171e06c2-6a98-491c-9cfd-2f01b1e3501e.gif)
